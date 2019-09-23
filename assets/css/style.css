@@ -19,10 +19,7 @@ body {
   clear: both;
 }
 
-h1,
-h2,
-h3,
-p {
+h1, h2, h3, p {
   margin-bottom: 20px;
 }
 
@@ -30,9 +27,7 @@ p:last-child {
   margin-bottom: 0;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -45,8 +40,7 @@ h1 {
   border-bottom: 3px solid #dddddd;
 }
 
-h2,
-h3 {
+h2, h3 {
   font-size: 22px;
 }
 
@@ -186,17 +180,12 @@ h3, h2 {
   margin-bottom: 10px;
 }
 
-label,
-input[type=text],
-input[type=email],
-textarea {
+label, input[type=text], input[type=email], textarea {
   display: block;
   width: 100%;
 }
 
-input[type=text],
-input[type=email],
-textarea {
+input[type=text], input[type=email], textarea {
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
@@ -214,4 +203,35 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* Media queries */
+
+/* 640px Media query */
+@media(max-width: 640px) {
+  .container {
+    display: grid;
+  }
+  #logo {
+    width: 100%;
+  }
+  nav {
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+  }
+  .auth-image {
+    width: 100%;
+    padding-top: .5em;
+    padding-bottom: 1em;
+  }
+  #masthead {
+    position: static;
+  }
+  #main-container.container {
+    padding: 0 0 300px 0;
+  }
+  h1 {
+    margin: 0;
+  }
 }
