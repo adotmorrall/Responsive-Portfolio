@@ -235,3 +235,30 @@ input[type=submit] {
     margin: 0;
   }
 }
+/* 768-index media query */
+@media(min-width: 768px) and (max-width: 768px) {
+  .container {
+    display: grid;
+  }
+  nav {
+    grid-column: 3/4;
+    text-align: justify;
+    padding-left: 8em;
+  }
+  #logo {
+    grid-column: 2;
+  }
+  .auth-image {
+    width: 50%;
+  }
+  #masthead {
+    position: static;
+  }
+  #main-container.container {
+    padding: 25px 0 300px 0;
+  }
+  h1 {
+    margin: 0;
+  }
+
+}
