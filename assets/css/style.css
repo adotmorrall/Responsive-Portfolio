@@ -210,6 +210,9 @@ input[type=submit] {
 /* 640px-index media query */
 
 @media(max-width: 640px) {
+  body {
+    margin: 0;
+  }
   .container {
     display: grid;
   }
@@ -234,6 +237,14 @@ input[type=submit] {
   }
   h1 {
     margin: 0;
+  }
+  .main-section {
+    margin-left: 20px;
+    width: 93%;
+  }
+  /* 640px-contact meqia query */
+  #contact-form ul {
+    list-style: none;
   }
 }
 
