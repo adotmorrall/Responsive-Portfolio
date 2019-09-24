@@ -233,7 +233,7 @@ input[type=submit] {
     position: static;
   }
   #main-container.container {
-    padding: 0 0 300px 0;
+    padding: 0 15px 300px 5px;
   }
   h1 {
     margin: 0;
