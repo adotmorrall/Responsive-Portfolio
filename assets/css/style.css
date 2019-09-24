@@ -176,6 +176,10 @@ h3, h2 {
   margin-bottom: 20px;
 }
 
+#contact-form ul {
+  list-style: none;
+}
+
 #contact-form li {
   margin-bottom: 10px;
 }
@@ -309,8 +313,8 @@ input[type=submit] {
   #main-container.container {
     padding: 20px 400px 750px 20px;
   }
-   /* 980px-contact meqia query */
-   #contact-form ul {
+  /* 980px-contact meqia query */
+  #contact-form ul {
     list-style: none;
   }
   .main-section {
