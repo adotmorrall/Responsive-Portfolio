@@ -276,6 +276,10 @@ input[type=submit] {
   h1 {
     margin: 0;
   }
+  /* 768px-contact meqia query */
+  #contact-form ul {
+    list-style: none;
+  }
 }
 
 /* 980px-index media query */
@@ -305,9 +309,10 @@ input[type=submit] {
   #main-container.container {
     padding: 20px 400px 750px 20px;
   }
-/*   p {
-    line-height: 1.25em;
-  } */
+   /* 980px-contact meqia query */
+   #contact-form ul {
+    list-style: none;
+  }
   .main-section {
     width: 650px;
   }
